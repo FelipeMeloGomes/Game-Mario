@@ -2,10 +2,6 @@ const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
 const startGame = document.querySelector(".start-game");
 
-// Executa o audio
-const audio = new Audio("/midia/mario-song.mp3");
-audio.loop = true;
-audio.play();
 
 // adiciona e remove a classe que faz o mario pular
 const jump = () => {
