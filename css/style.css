@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 16px;
 }
 
 .game-board {
@@ -26,7 +25,7 @@
   position: absolute;
   bottom: 0;
   width: 80px;
-  animation: pipe-animation 1.5s infinite linear;
+  animation: pipe-animation 1s infinite linear;
 }
 
 .audio {
@@ -42,7 +41,7 @@
 }
 
 .jump {
-  animation: jump-animation 600ms ease-out;
+  animation: jump-animation 700ms ease-out;
 }
 
 .clouds {
