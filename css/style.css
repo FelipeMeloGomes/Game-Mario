@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 .game-board {
@@ -41,7 +42,7 @@
 }
 
 .jump {
-  animation: jump-animation 500ms ease-out;
+  animation: jump-animation 600ms ease-out;
 }
 
 .clouds {
