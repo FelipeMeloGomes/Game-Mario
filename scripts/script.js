@@ -34,6 +34,9 @@ const loop = setInterval(() => {
     document.addEventListener("keydown", () => {
       location.reload();
     });
+    document.addEventListener("click", () => {
+      location.reload();
+    });
   }
 }, 10);
 
