@@ -17,6 +17,7 @@
 
 <body onload="playMusica()">
 
+  <audio id="audio" src="/midia/mario-dead.mp3"></audio>
   <audio id="musica" src="/midia/mario-song.mp3" autoplay="audio"></audio>
 
   <div class="game-board">
@@ -26,12 +27,6 @@
     <img src="/img/pipe.png" class="pipe">
   </div>
 
-  <script>
-    function playMusica() {
-      var musica = document.getElementById("musica");
-      musica.play();
-    }
-  </script>
 
 </body>
 

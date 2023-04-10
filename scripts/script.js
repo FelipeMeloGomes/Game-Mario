@@ -1,6 +1,8 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
 const startGame = document.querySelector(".start-game");
+const audio = document.getElementById("audio");
+
 
 // adiciona e remove a classe que faz o mario pular
 const jump = () => {
@@ -10,6 +12,12 @@ const jump = () => {
     mario.classList.remove("jump");
   }, 500);
 };
+
+// musica no jogo
+function playMusica() {
+  var musica = document.getElementById("musica");
+  musica.play();
+}
 
 const loop = setInterval(() => {
   const pipePosition = pipe.offsetLeft;
@@ -29,6 +37,9 @@ const loop = setInterval(() => {
     mario.style.marginLeft = "3.125rem";
 
     startGame.src = "img/gameover.png";
+    musica.pause();
+    audio.play();
+
 
     clearInterval(loop);
 
