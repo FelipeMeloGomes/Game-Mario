@@ -13,6 +13,7 @@ const jump = () => {
   }, 500);
 };
 
+
 // musica no jogo
 function playMusica() {
   var musica = document.getElementById("musica");
@@ -46,11 +47,14 @@ const loop = setInterval(() => {
     document.addEventListener("keydown", () => {
       location.reload();
     });
+
     document.addEventListener("click", () => {
       location.reload();
     });
+    
   }
 }, 10);
+
 
 document.addEventListener("click", jump);
 document.addEventListener("keydown", jump);
