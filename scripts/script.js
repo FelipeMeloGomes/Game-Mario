@@ -2,7 +2,6 @@ const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
 const startGame = document.querySelector(".start-game");
 
-
 // adiciona e remove a classe que faz o mario pular
 const jump = () => {
   mario.classList.add("jump");
@@ -26,8 +25,8 @@ const loop = setInterval(() => {
     mario.style.bottom = `${marioPosition}px`;
 
     mario.src = "/img/mario-dead.png";
-    mario.style.width = "75px";
-    mario.style.marginLeft = "50px";
+    mario.style.width = "4.6875rem";
+    mario.style.marginLeft = "3.125rem";
 
     startGame.src = "img/gameover.png";
 

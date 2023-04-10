@@ -15,9 +15,9 @@
 
 </head>
 
-<body>
+<body onload="playMusica()">
 
-  <audio src="/midia/mario-song.mp3" autoplay="audio"></audio>
+  <audio id="musica" src="/midia/mario-song.mp3" autoplay="audio"></audio>
 
   <div class="game-board">
     <img src="img/presstostart.png" class="start-game" alt="Pressione para iniciar Mario Jump" />
@@ -25,6 +25,13 @@
     <img src="/img/mario-speed.gif" class="mario">
     <img src="/img/pipe.png" class="pipe">
   </div>
+
+  <script>
+    function playMusica() {
+      var musica = document.getElementById("musica");
+      musica.play();
+    }
+  </script>
 
 </body>
 

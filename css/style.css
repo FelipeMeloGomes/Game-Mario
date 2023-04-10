@@ -2,12 +2,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 .game-board {
   width: 100%;
   height: 100vh;
-  border-bottom: 45px solid #05b105;
+  border-bottom: 45px solid rgba(0, 128, 0, 1);
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -24,7 +25,7 @@
 .pipe {
   position: absolute;
   bottom: 0;
-  width: 80px;
+  width: 5rem;
   animation: pipe-animation 1s infinite linear;
 }
 
@@ -35,7 +36,7 @@
 }
 
 .mario {
-  width: 150px;
+  width: 9.375rem;
   position: absolute;
   bottom: 0;
 }
@@ -46,7 +47,7 @@
 
 .clouds {
   position: absolute;
-  width: 550px;
+  width: 34.375rem;
   animation: clouds-animation 20s infinite linear;
 }
 
