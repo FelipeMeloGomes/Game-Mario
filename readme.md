@@ -1,7 +1,7 @@
 <h1 align="center"> Mario Jump  </h1>
 
 <p align="center">
-Um game do Mario. <br/>
+Um game do Mario.<br><a target="_blank" href="https://game-mario-bros.netlify.app/">JOGAR!</><br/>
 </p>
 
 
@@ -33,8 +33,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Melhorias implementadas:
 
-- Aúdio do Mario ao morrer.
-- Implementação de um verificação nos inputs.
+- Audio do Mario ao morrer.
+- Melhorias na lógica de pulo do Mário.
+- Animações mais suaves e limpas.
 - Melhorias na responsividade.
 
 
