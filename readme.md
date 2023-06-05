@@ -10,7 +10,7 @@ Um game do Mario. <br/>
 <br>
 
 <p align="center">
-  <img src="https://github.com/FelipeMelogomes/Game-Mario/midia/readme.png" width="100%">
+  <img src="https://github.com/FelipeMelogomes/Game-Mario/blob/main/img/readme.png" width="100%">
 </p>
 
 
