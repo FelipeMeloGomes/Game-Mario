@@ -3,7 +3,6 @@ const pipe = document.querySelector(".pipe");
 const startGame = document.querySelector(".start-game");
 const audio = document.getElementById("audio");
 
-
 // adiciona e remove a classe que faz o mario pular
 const jump = () => {
   mario.classList.add("jump");
@@ -12,7 +11,6 @@ const jump = () => {
     mario.classList.remove("jump");
   }, 500);
 };
-
 
 // musica no jogo
 function playMusica() {
@@ -41,7 +39,6 @@ const loop = setInterval(() => {
     musica.pause();
     audio.play();
 
-
     clearInterval(loop);
 
     document.addEventListener("keydown", () => {
@@ -51,10 +48,8 @@ const loop = setInterval(() => {
     document.addEventListener("click", () => {
       location.reload();
     });
-    
   }
 }, 10);
-
 
 document.addEventListener("click", jump);
 document.addEventListener("keydown", jump);
